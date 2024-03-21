@@ -1,0 +1,30 @@
+/* Configurações padrão do site */
+
+/* Fontes utilizadas no site */
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Shippori+Mincho&display=swap');
+
+/* CSS Reset */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variáveis com as cores e tamnaho das fontes utilizadas no site */ 
+:root{
+    /* Cores */
+    --background-color-principal: #c5dbf2;
+    --background-color-secundaria: #f7d5c5;
+    --cor-fonte-principal: #000;
+    --cor-fonte-secundaria: #f87353;
+    --cor-fonte-terciaria: #fff;
+    --cor-btn: #007c89;
+
+    /* Tamanho das fontes */
+
+}
+
+a {
+    text-decoration: none;
+}
