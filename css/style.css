@@ -65,3 +65,47 @@ body{
     font-size: 0.93rem;
     font-weight: 500;
 }
+
+/* Inicio main */
+/*Lado esquerdo*/
+.conteudo__main {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo__main-esquerdo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-saiba-mais{
+    width: 150px;
+    background-color: var(--cor-btn);
+    color: var(--cor-fonte-terciaria);
+}
+
+/*Lado direito*/
+.conteudo__main-direito{
+    width: 40%;
+}
+
+.container{
+    width: 90%;
+    padding: 1%;
+    background-color: var(--background-color-secundaria);
+    border: 2px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
