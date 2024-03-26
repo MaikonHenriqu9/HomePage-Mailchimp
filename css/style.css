@@ -135,6 +135,10 @@ body{
     padding: 2%;
 }
 
+.container__propaganda{
+    width: 80%;
+}
+
 .container__lista-de-compras {
     background-color: #fff;
     position: relative;
@@ -156,3 +160,48 @@ body{
 }
 
 
+/*Responsividade*/
+@media screen and (max-width: 480px) {
+    
+    
+    .conteudo__main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .conteudo__main-esquerdo, .conteudo__main-direito{
+        width: 80%;
+    }
+
+    .conteudo__titulo, .conteudo__texto, .btn-saiba-mais{
+        margin-bottom: 0.5rem;
+    }
+
+    .conteudo__titulo{
+        font-size: 2rem;       
+        line-height: 30px;
+    }
+
+    .conteudo__texto{
+        font-size: 1.2rem;
+    }
+
+    .container{
+        width: 80%;
+        display: flex;
+    }
+
+    .container__produtos{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container__lista-de-compras{
+        top: 10px;
+        left: 50px;
+    }
+}
