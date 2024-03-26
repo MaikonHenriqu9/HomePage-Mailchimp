@@ -1,5 +1,4 @@
 /* Configurações padrão do site */
-
 /* Fontes utilizadas no site */
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Shippori+Mincho&display=swap');
 
@@ -16,6 +15,7 @@
     /* Cores */
     --background-color-principal: #c5dbf2;
     --background-color-secundaria: #f7d5c5;
+    --background-color-terciario: #eeeeec;
     --cor-fonte-principal: #000;
     --cor-fonte-secundaria: #f87353;
     --cor-fonte-terciaria: #fff;
